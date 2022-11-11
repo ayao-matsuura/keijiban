@@ -1,0 +1,147 @@
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    width: 250px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+}
+
+.logout a {
+    background: #ff0505;
+    color: #fff;
+    padding: 7px 25px;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.logout  p{
+    margin-right: 24px;
+}
+
+
+.err_message{
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    color: red;
+}
+
+
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    
+}
+
+.top ul{
+    display: flex;
+    list-style: none;
+}
+
+.top ul li{
+    
+    color: white;
+    padding: 20px 25px;
+}
+
+.main-container {
+    display: flex;
+    justify-content:space-between;
+    width: 100%
+}
+
+h2{
+    padding-left: 10px;
+    border-left: 5px solid black;
+
+    border-bottom: 2px solid ;
+}
+
+.left{
+    
+    width:70%;
+    padding-right: 50px;
+    margin-bottom: 60px;
+}
+
+
+form{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 24px 0;
+    border: 3px solid #ebebeb;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+}
+
+.keijiban h3{
+    border-left:  4px solid red;
+    padding-left: 5px;
+    margin-left: 15px;
+}
+
+.item{
+   
+    padding: 15px;
+}
+
+.kiji{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    border: 3px #ebebeb solid;
+    width: 98%;
+}
+
+.kiji h3{
+    border-bottom: solid 2px #ebebeb;
+}
+
+.contents {
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.right h3 {
+    border-bottom: 2px dotted gray;
+}
+
+
+.right{
+    width: 25%; 
+}
+
+
+.right h3{
+    border-bottom: dotted 2px black;
+}
+.right ul{
+ list-style: none;
+ margin-left: 0px;
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
